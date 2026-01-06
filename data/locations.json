@@ -1,0 +1,79 @@
+{
+  "kremlin": {
+    "id": "kremlin",
+    "name": "Псковский Кремль (Кром)",
+    "description": "Древняя крепость, основанная в 903 году. Здесь находится Троицкий собор и мощные оборонительные стены.",
+    "image": "images/locations/kremlin.jpg",
+    "npcs": ["ded_ivan"],
+    "items": ["kremlin_wall_fragment", "troitsky_cathedral_info"],
+    "quests": ["kremlin_wall_building"],
+    "connections": ["olga_monument", "embankment"],
+    "coordinates": { "x": 100, "y": 150 }
+  },
+  "olga_monument": {
+    "id": "olga_monument",
+    "name": "Памятник княгине Ольге",
+    "description": "Памятник первой женщине-правительнице на Руси. Легенда гласит, что именно здесь Ольга впервые увидела Псков.",
+    "image": "images/locations/olga_monument.jpg",
+    "npcs": [],
+    "items": ["olga_symbol", "olga_legend"],
+    "quests": ["olga_symbols"],
+    "connections": ["kremlin", "embankment"],
+    "coordinates": { "x": 150, "y": 120 }
+  },
+  "embankment": {
+    "id": "embankment",
+    "name": "Набережные рек Псковы и Великой",
+    "description": "Исторический торговый путь 'Из варяг в греки'. Здесь кипела торговля и происходили важные исторические события.",
+    "image": "images/locations/embankment.jpg",
+    "npcs": ["kirill"],
+    "items": ["trade_route_map", "merchant_house_info"],
+    "quests": ["trade_route"],
+    "connections": ["kremlin", "olga_monument", "dovmont_city"],
+    "coordinates": { "x": 200, "y": 180 }
+  },
+  "dovmont_city": {
+    "id": "dovmont_city",
+    "name": "Довмонтов город",
+    "description": "Крепость, построенная князем Довмонтом в XIII веке. Здесь найдены уникальные археологические артефакты.",
+    "image": "images/locations/dovmont_city.jpg",
+    "npcs": [],
+    "items": ["dovmont_sword", "archaeological_findings"],
+    "quests": ["archaeological_excavations"],
+    "connections": ["embankment", "pogankiny_palaty"],
+    "coordinates": { "x": 250, "y": 200 }
+  },
+  "pogankiny_palaty": {
+    "id": "pogankiny_palaty",
+    "name": "Поганкины палаты",
+    "description": "Уникальный памятник древнерусской архитектуры XVII века. Музей с богатой коллекцией предметов быта.",
+    "image": "images/locations/pogankiny_palaty.jpg",
+    "npcs": ["reconstructor"],
+    "items": ["pogankin_portrait", "ancient_chest"],
+    "quests": ["hidden_objects"],
+    "connections": ["dovmont_city", "gremyachaya_tower"],
+    "coordinates": { "x": 300, "y": 220 }
+  },
+  "gremyachaya_tower": {
+    "id": "gremyachaya_tower",
+    "name": "Гремячая башня",
+    "description": "Одна из сохранившихся башен Псковского кремля. С ней связано множество легенд и преданий.",
+    "image": "images/locations/gremyachaya_tower.jpg",
+    "npcs": [],
+    "items": ["tower_legend", "defensive_wall_info"],
+    "quests": ["tower_defense"],
+    "connections": ["pogankiny_palaty", "museum"],
+    "coordinates": { "x": 350, "y": 240 }
+  },
+  "museum": {
+    "id": "museum",
+    "name": "Псковский историко-художественный музей",
+    "description": "Один из старейших музеев России. Здесь собрана уникальная коллекция произведений искусства и исторических предметов.",
+    "image": "images/locations/museum.jpg",
+    "npcs": ["museum_guard"],
+    "items": ["museum_exhibit", "ancient_manuscript"],
+    "quests": ["museum_detective"],
+    "connections": ["gremyachaya_tower"],
+    "coordinates": { "x": 400, "y": 260 }
+  }
+}

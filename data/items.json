@@ -1,0 +1,230 @@
+{
+  "kremlin_wall_fragment": {
+    "id": "kremlin_wall_fragment",
+    "name": "Фрагмент стены Кремля",
+    "description": "Древний камень из стены Псковского Кремля. На нем видны следы времени и осад.",
+    "icon": "🧱",
+    "image": "images/items/kremlin_wall_fragment.jpg",
+    "location": "kremlin",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "troitsky_cathedral_info": {
+    "id": "troitsky_cathedral_info",
+    "name": "Сведения о Троицком соборе",
+    "description": "Историческая справка о главном соборе Пскова. Построен в 1699 году.",
+    "icon": "📜",
+    "image": "images/items/troitsky_cathedral_info.jpg",
+    "location": "kremlin",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "olga_symbol": {
+    "id": "olga_symbol",
+    "name": "Символ княгини Ольги",
+    "description": "Древний символ, связанный с княгиней Ольгой. Говорят, он приносит мудрость.",
+    "icon": "⚜️",
+    "image": "images/items/olga_symbol.jpg",
+    "location": "olga_monument",
+    "collectible": true,
+    "rarity": "rare"
+  },
+  "olga_legend": {
+    "id": "olga_legend",
+    "name": "Легенда о княгине Ольге",
+    "description": "Рассказ о первой женщине-правительнице на Руси и ее связи с Псковом.",
+    "icon": "📖",
+    "image": "images/items/olga_legend.jpg",
+    "location": "olga_monument",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "trade_route_map": {
+    "id": "trade_route_map",
+    "name": "Карта торгового пути",
+    "description": "Старинная карта знаменитого пути 'Из варяг в греки', проходившего через Псков.",
+    "icon": "🗺️",
+    "image": "images/items/trade_route_map.jpg",
+    "location": "embankment",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "merchant_house_info": {
+    "id": "merchant_house_info",
+    "name": "Сведения о купеческих домах",
+    "description": "Информация о старинных купеческих домах на набережных рек Псковы и Великой.",
+    "icon": "🏠",
+    "image": "images/items/merchant_house_info.jpg",
+    "location": "embankment",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "dovmont_sword": {
+    "id": "dovmont_sword",
+    "name": "Меч князя Довмонта",
+    "description": "Реплика легендарного меча князя Довмонта, защитника Пскова.",
+    "icon": "⚔️",
+    "image": "images/items/dovmont_sword.jpg",
+    "location": "dovmont_city",
+    "collectible": true,
+    "rarity": "rare"
+  },
+  "archaeological_findings": {
+    "id": "archaeological_findings",
+    "name": "Археологические находки",
+    "description": "Коллекция артефактов, найденных во время раскопок в Довмонтовом городе.",
+    "icon": "🏺",
+    "image": "images/items/archaeological_findings.jpg",
+    "location": "dovmont_city",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "pogankin_portrait": {
+    "id": "pogankin_portrait",
+    "name": "Портрет купца Поганкина",
+    "description": "Портрет знаменитого псковского купца XVII века, построившего Поганкины палаты.",
+    "icon": "🖼️",
+    "image": "images/items/pogankin_portrait.jpg",
+    "location": "pogankiny_palaty",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "ancient_chest": {
+    "id": "ancient_chest",
+    "name": "Древний сундук",
+    "description": "Старинный сундук, найденный в тайной комнате Поганкиных палат. Внутри - сокровища купца.",
+    "icon": "📦",
+    "image": "images/items/ancient_chest.jpg",
+    "location": "pogankiny_palaty",
+    "collectible": true,
+    "rarity": "rare"
+  },
+  "tower_legend": {
+    "id": "tower_legend",
+    "name": "Легенда о Гремячей башне",
+    "description": "Древнее предание о самой известной башне Псковского Кремля.",
+    "icon": "📚",
+    "image": "images/items/tower_legend.jpg",
+    "location": "gremyachaya_tower",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "defensive_wall_info": {
+    "id": "defensive_wall_info",
+    "name": "Сведения о оборонительных стенах",
+    "description": "Информация о системе обороны Псковского Кремля и его башен.",
+    "icon": "🛡️",
+    "image": "images/items/defensive_wall_info.jpg",
+    "location": "gremyachaya_tower",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "museum_exhibit": {
+    "id": "museum_exhibit",
+    "name": "Музейный экспонат",
+    "description": "Уникальный экспонат из Псковского историко-художественного музея.",
+    "icon": "🏛️",
+    "image": "images/items/museum_exhibit.jpg",
+    "location": "museum",
+    "collectible": true,
+    "rarity": "common"
+  },
+  "ancient_manuscript": {
+    "id": "ancient_manuscript",
+    "name": "Древний манускрипт",
+    "description": "Загадочный манускрипт с зашифрованным посланием о кладе князя Довмонта.",
+    "icon": "📜",
+    "image": "images/items/ancient_manuscript.jpg",
+    "location": "museum",
+    "collectible": true,
+    "rarity": "legendary"
+  },
+  "kremlin_wall_badge": {
+    "id": "kremlin_wall_badge",
+    "name": "Значок строителя Кремля",
+    "description": "Награда за восстановление стены Псковского Кремля в мини-игре.",
+    "icon": "🏅",
+    "image": "images/items/kremlin_wall_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "kremlin_wall_building"
+  },
+  "olga_badge": {
+    "id": "olga_badge",
+    "name": "Значок исследователя символов",
+    "description": "Награда за нахождение всех символов на памятнике княгине Ольге.",
+    "icon": "🏅",
+    "image": "images/items/olga_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "olga_symbols"
+  },
+  "merchant_badge": {
+    "id": "merchant_badge",
+    "name": "Значок купца",
+    "description": "Награда за исследование торгового пути 'Из варяг в греки'.",
+    "icon": "🏅",
+    "image": "images/items/merchant_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "trade_route"
+  },
+  "archaeologist_badge": {
+    "id": "archaeologist_badge",
+    "name": "Значок археолога",
+    "description": "Награда за помощь в археологических раскопках в Довмонтовом городе.",
+    "icon": "🏅",
+    "image": "images/items/archaeologist_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "archaeological_excavations"
+  },
+  "detective_badge": {
+    "id": "detective_badge",
+    "name": "Значок детектива",
+    "description": "Награда за нахождение всех спрятанных предметов в Поганкиных палатах.",
+    "icon": "🏅",
+    "image": "images/items/detective_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "hidden_objects"
+  },
+  "defender_badge": {
+    "id": "defender_badge",
+    "name": "Значок защитника",
+    "description": "Награда за успешную защиту Гремячей башни в мини-игре.",
+    "icon": "🏅",
+    "image": "images/items/defender_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "tower_defense"
+  },
+  "historian_badge": {
+    "id": "historian_badge",
+    "name": "Значок историка",
+    "description": "Награда за разгадку тайны древнего манускрипта в музее.",
+    "icon": "🏅",
+    "image": "images/items/historian_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "special",
+    "questReward": "museum_detective"
+  },
+  "explorer_badge": {
+    "id": "explorer_badge",
+    "name": "Значок исследователя Пскова",
+    "description": "Главная награда за полное исследование всех достопримечательностей Пскова.",
+    "icon": "🏆",
+    "image": "images/items/explorer_badge.jpg",
+    "location": null,
+    "collectible": false,
+    "rarity": "legendary",
+    "questReward": "city_explorer"
+  }
+}

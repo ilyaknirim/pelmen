@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Псков: Путешествие Лёхи</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading" class="screen active">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <h1>Псков</h1>
+                <h2>Путешествие Лёхи</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">Загрузка... 0%</div>
+        </div>
+    </div>
+
+    <!-- Menu Screen -->
+    <div id="menu" class="screen">
+        <div class="menu-container">
+            <div class="menu-logo">
+                <h1>Псков</h1>
+                <h2>Путешествие Лёхи</h2>
+            </div>
+            <div class="menu-buttons">
+                <button id="start-game-btn" class="menu-btn primary">Начать игру</button>
+                <button id="continue-game-btn" class="menu-btn secondary">Продолжить</button>
+                <button id="achievements-btn" class="menu-btn secondary">Достижения</button>
+                <button id="share-btn" class="menu-btn secondary">Поделиться</button>
+                <button id="help-btn" class="menu-btn secondary">Справка</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game" class="screen">
+        <div class="game-container">
+            <div class="location-view">
+                <div class="location-image">
+                    <div class="location-info">
+                        <h3>Название локации</h3>
+                        <p>Описание локации</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dialog-window hidden">
+                <div class="dialog-character">Персонаж</div>
+                <div class="dialog-text">Текст диалога</div>
+                <div class="dialog-choices"></div>
+            </div>
+            <div class="action-panel">
+                <button id="inventory-btn" class="action-btn">Инвентарь</button>
+                <button id="map-btn" class="action-btn">Карта</button>
+                <button id="quests-btn" class="action-btn">Квесты</button>
+                <button id="sound-toggle-btn" class="action-btn">🔊</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inventory Screen -->
+    <div id="inventory" class="screen">
+        <div class="inventory-container">
+            <div class="inventory-header">
+                <button class="back-btn">←</button>
+                <h2>Инвентарь</h2>
+            </div>
+            <div class="inventory-grid">
+                <!-- Items will be dynamically generated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Screen -->
+    <div id="map" class="screen">
+        <div class="map-container">
+            <div class="map-header">
+                <button class="back-btn">←</button>
+                <h2>Карта Пскова</h2>
+            </div>
+            <div class="map-content">
+                <!-- Map SVG will be loaded here -->
+                <div class="map-placeholder text-center">
+                    <p>Карта города</p>
+                    <p class="mb-20">Здесь будет интерактивная карта Пскова</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quests Screen -->
+    <div id="quests" class="screen">
+        <div class="quests-container">
+            <div class="quests-header">
+                <button class="back-btn">←</button>
+                <h2>Квесты</h2>
+            </div>
+            <div class="quests-list">
+                <!-- Quests will be dynamically generated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Screen -->
+    <div id="help" class="screen">
+        <div class="help-container">
+            <div class="help-header">
+                <button class="back-btn">←</button>
+                <h2>Справка</h2>
+            </div>
+            <div class="help-content">
+                <h3>О игре</h3>
+                <p>Псков: Путешествие Лёхи - это интерактивное образовательное приложение, в котором вы исследуете исторические места Пскова вместе с подростком Лёхой.</p>
+
+                <h3>Как играть</h3>
+                <ul>
+                    <li>Используйте кнопки на панели действий для доступа к инвентарю, карте и квестам</li>
+                    <li>Нажимайте на локации, чтобы исследовать их</li>
+                    <li>Собирайте предметы и выполняйте задания, чтобы продвигаться по игре</li>
+                    <li>Общайтесь с персонажами, чтобы узнать больше об истории Пскова</li>
+                </ul>
+
+                <h3>Управление</h3>
+                <ul>
+                    <li>Нажмите на предмет в инвентаре, чтобы узнать о нём больше</li>
+                    <li>Используйте карту для быстрого перемещения между локациями</li>
+                    <li>В квестах отслеживайте текущие задания и выполненные</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="tg-api.js"></script>
+    <script src="audio.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

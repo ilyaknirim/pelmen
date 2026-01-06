@@ -1,0 +1,126 @@
+{
+  "kremlin_wall_building": {
+    "id": "kremlin_wall_building",
+    "name": "Построй стену Кремля",
+    "description": "Помоги восстановить фрагмент стены Псковского Кремля. Собери все необходимые элементы и построй миниатюрную модель стены.",
+    "location": "kremlin",
+    "type": "mini_game",
+    "requirements": ["kremlin_wall_fragment"],
+    "rewards": ["kremlin_wall_badge"],
+    "steps": [
+      "Найди фрагмент стены Кремля",
+      "Собери строительные материалы",
+      "Восстанови стену в мини-игре"
+    ],
+    "completed": false
+  },
+  "olga_symbols": {
+    "id": "olga_symbols",
+    "name": "Символы княгини Ольги",
+    "description": "Найди все скрытые символы на памятнике княгине Ольге. Каждый символ расскажет часть истории первой женщины-правительницы Руси.",
+    "location": "olga_monument",
+    "type": "collection",
+    "requirements": ["olga_symbol"],
+    "rewards": ["olga_badge"],
+    "steps": [
+      "Осмотри памятник внимательно",
+      "Найди все 5 символов",
+      "Узнай историю княгини Ольги"
+    ],
+    "completed": false
+  },
+  "trade_route": {
+    "id": "trade_route",
+    "name": "Торговый путь",
+    "description": "Исследуй древний торговый путь 'Из варяг в греки'. Найди карту пути и узнай, как торговали купцы в старину.",
+    "location": "embankment",
+    "type": "mini_game",
+    "requirements": ["trade_route_map", "merchant_house_info"],
+    "rewards": ["merchant_badge"],
+    "steps": [
+      "Найди карту торгового пути",
+      "Узнай о купеческих домах",
+      "Пройди маршрут в мини-игре"
+    ],
+    "completed": false
+  },
+  "archaeological_excavations": {
+    "id": "archaeological_excavations",
+    "name": "Археологические раскопки",
+    "description": "Помоги археологам в Довмонтовом городе. Найди древние артефакты и узнай о князе Довмонте.",
+    "location": "dovmont_city",
+    "type": "mini_game",
+    "requirements": ["dovmont_sword", "archaeological_findings"],
+    "rewards": ["archaeologist_badge"],
+    "steps": [
+      "Найди меч князя Довмонта",
+      "Собери археологические находки",
+      "Раскопай артефакты в мини-игре"
+    ],
+    "completed": false
+  },
+  "hidden_objects": {
+    "id": "hidden_objects",
+    "name": "Спрятанные предметы",
+    "description": "Найди все спрятанные предметы в Поганкиных палатах. Каждый предмет расскажет о жизни купца Поганкина.",
+    "location": "pogankiny_palaty",
+    "type": "collection",
+    "requirements": ["pogankin_portrait", "ancient_chest"],
+    "rewards": ["detective_badge"],
+    "steps": [
+      "Найди портрет купца Поганкина",
+      "Открой древний сундук",
+      "Собери все спрятанные предметы"
+    ],
+    "completed": false
+  },
+  "tower_defense": {
+    "id": "tower_defense",
+    "name": "Защита башни",
+    "description": "Защити Гремячую башню от врагов! Узнай легенды о башне и прими участие в исторической обороне.",
+    "location": "gremyachaya_tower",
+    "type": "mini_game",
+    "requirements": ["tower_legend", "defensive_wall_info"],
+    "rewards": ["defender_badge"],
+    "steps": [
+      "Узнай легенды о башне",
+      "Изучи систему обороны",
+      "Защити башню в мини-игре"
+    ],
+    "completed": false
+  },
+  "museum_detective": {
+    "id": "museum_detective",
+    "name": "Музейный детектив",
+    "description": "Финальное задание! Найди все спрятанные экспонаты в музее и собери полную картину истории Пскова.",
+    "location": "museum",
+    "type": "collection",
+    "requirements": ["museum_exhibit", "ancient_manuscript"],
+    "rewards": ["historian_badge"],
+    "steps": [
+      "Найди музейные экспонаты",
+      "Прочитай древние манускрипты",
+      "Заверши историю Пскова"
+    ],
+    "completed": false
+  },
+  "city_explorer": {
+    "id": "city_explorer",
+    "name": "Исследователь города",
+    "description": "Посети все основные достопримечательности Пскова и узнай его историю. Главный квест путешествия Лёхи.",
+    "location": "kremlin",
+    "type": "main",
+    "requirements": ["kremlin_wall_badge", "olga_badge", "merchant_badge", "archaeologist_badge", "detective_badge", "defender_badge", "historian_badge"],
+    "rewards": ["explorer_badge"],
+    "steps": [
+      "Посети Псковский Кремль",
+      "Узнай о княгине Ольге",
+      "Исследуй торговые пути",
+      "Помоги археологам",
+      "Найди спрятанные предметы",
+      "Защити башню",
+      "Заверши музейный квест"
+    ],
+    "completed": false
+  }
+}
