@@ -31,12 +31,12 @@ class AudioManager {
     // Load all sound files
     async loadSounds() {
         // Background music tracks
-        this.sounds.background = await this.loadAudio('audio/background.mp3');
-        this.sounds.menu = await this.loadAudio('audio/menu.mp3');
-        this.sounds.success = await this.loadAudio('audio/success.mp3');
-        this.sounds.click = await this.loadAudio('audio/click.mp3');
-        this.sounds.discovery = await this.loadAudio('audio/discovery.mp3');
-        this.sounds.quest_complete = await this.loadAudio('audio/quest_complete.mp3');
+        this.sounds.background = await this.loadAudio('../audio/background.mp3');
+        this.sounds.menu = await this.loadAudio('../audio/menu.mp3');
+        this.sounds.success = await this.loadAudio('../audio/success.mp3');
+        this.sounds.click = await this.loadAudio('../audio/click.mp3');
+        this.sounds.discovery = await this.loadAudio('../audio/discovery.mp3');
+        this.sounds.quest_complete = await this.loadAudio('../audio/quest_complete.mp3');
     }
 
     // Load individual audio file
